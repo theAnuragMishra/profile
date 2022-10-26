@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital@0;1&family=Bungee+Inline&family=Comic+Neue:wght@700&family=Fredoka&family=Henny+Penny&family=Hubballi&family=Mate+SC&family=Noto+Sans&family=Noto+Sans+Math&family=Pacifico&family=Raleway&family=Roboto:ital,wght@0,100;0,300;1,100&family=Rubik+Moonrocks&family=Satisfy&family=Shadows+Into+Light+Two&family=Tiro+Gurmukhi:ital@0;1&family=Turret+Road:wght@200;300;400;500;700;800&display=swap");
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700,900,400italic,700italic,900italic);
+
+#formul li {
+  display: flex;
+  flex-direction: row;
+}
+
+.anuragmishra h1:hover {
+  animation: text-shadow 0.9s ease-in-out;
+}
+#home h1:hover {
+  animation: shake 0.5s;
+}
+#home p:hover {
+  animation: shake 0.5s;
+}
+
+#projects h2:hover,
+h4:hover {
+  animation: shake 0.5s;
+}
+
+#projects p:hover {
+  animation: shake 0.5s;
+}
+
+#projects img:hover {
+  animation: shake 0.5s;
+}
+
+code:hover {
+  animation: text-shadow 0.8s;
+}
+@keyframes shake {
+  0% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(10px);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+#projects img {
+  width: inherit;
+  height: inherit;
+}
+
+.anuragmishra {
+  position: relative;
+  left: 5rem;
+}
+
+.anuragmishra h1 {
+  color: #011a32;
+  font-family: "Raleway", sans-serif;
+  width: 17rem;
+}
+#home {
+  position: relative;
+  left: 5rem;
+}
+#home p {
+  margin-bottom: 0;
+}
+#projects {
+  width: 80%;
+  position: relative;
+  left: 0.5rem;
+}
+
+#home p {
+  width: 70%;
+}
+
+code {
+  font-family: "Satisfy", cursive;
+  font-size: 1rem;
+  width: 4rem;
+  height: 2rem;
+}
+
+/* .anuragmishra h1 {
+  font-family: "Comic Neue", cursive;
+} */
+
+@keyframes text-shadow {
+  0% {
+    transform: translateY(0);
+    text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+  }
+
+  25% {
+    transform: translateY(-15px);
+    text-shadow: 0 0.125em 0 #0c2ffb, 0 0.25em 0 #2cfcfd, 0 -0.125em 0 #fb203b,
+      0 -0.25em 0 #fefc4b;
+  }
+
+  50% {
+    transform: translateY(7.5px);
+    text-shadow: 0 -0.0625em 0 #0c2ffb, 0 -0.125em 0 #2cfcfd,
+      0 0.0625em 0 #fb203b, 0 0.125em 0 #fefc4b;
+  }
+
+  75% {
+    transform: translateY(-3.5px);
+    text-shadow: 0 0.03125em 0 #0c2ffb, 0 0.0625em 0 #2cfcfd,
+      0 -0.03125em 0 #fb203b, 0 -0.0625em 0 #fefc4b;
+  }
+
+  100% {
+    transform: translateY(0);
+    text-shadow: 0 0 0 #0c2ffb, 0 0 0 #2cfcfd, 0 0 0 #fb203b, 0 0 0 #fefc4b;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: rgb(234, 122, 144);
+}
